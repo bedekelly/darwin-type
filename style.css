@@ -2,8 +2,7 @@ body {
     background-color: antiquewhite;
 }
 
-
-.species-paper>.front-cover>* {
+.species-paper>* {
     display: flex;
     justify-content: center;
     color: #1a1a1a;
@@ -12,32 +11,32 @@ body {
     text-transform: uppercase;
 }
 
-.species-paper>.front-cover>h1 {
+.species-paper>h1 {
     font-size: 55px;
 }
 
-.species-paper>.front-cover>h3 {
+.species-paper>h3 {
     font-size: 30px;
 }
 
-.species-paper>.front-cover>h5 {
+.species-paper>h5 {
     font-size: 20px;
 }
 
-.species-paper>.front-cover>.on {
+.species-paper>.on {
     padding-top: 10px;
 }
 
-.species-paper>.front-cover>.by-means-of {
+.species-paper>.by-means-of {
     padding-bottom: 110px;
 }
 
-.species-paper>.front-cover>.info {
+.species-paper>.credentials {
     font-size: 15px;
     text-align: center;
 }
 
-.species-paper>.front-cover>.translation {
+.species-paper>.translation {
     margin-top: 20px;
     font-size: 12px;
     font-style: italic;
