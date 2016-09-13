@@ -5,6 +5,7 @@ body {
 .species-paper>* {
     display: flex;
     justify-content: center;
+    text-align: center;
     color: #1a1a1a;
     font-family: "Old Standard TT", serif;
     font-weight: lighter;
