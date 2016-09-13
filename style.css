@@ -1,14 +1,14 @@
-body {
+.species-paper {
     background-color: antiquewhite;
-}
-
-.darwin {
     width: 100%;
     height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 
-.darwin>.text>* {
+.species-paper>.front-cover>* {
     display: flex;
     justify-content: center;
     color: #1a1a1a;
@@ -17,32 +17,32 @@ body {
     text-transform: uppercase;
 }
 
-.darwin>.text>h1 {
+.species-paper>.front-cover>h1 {
     font-size: 55px;
 }
 
-.darwin>.text>h3 {
+.species-paper>.front-cover>h3 {
     font-size: 30px;
 }
 
-.darwin>.text>h5 {
+.species-paper>.front-cover>h5 {
     font-size: 20px;
 }
 
-.darwin>.text>.on {
-    padding-top: 15px;
+.species-paper>.front-cover>.on {
+    padding-top: 10px;
 }
 
-.darwin>.text>.by-means-of {
+.species-paper>.front-cover>.by-means-of {
     padding-bottom: 110px;
 }
 
-.darwin>.text>.info {
+.species-paper>.front-cover>.info {
     font-size: 15px;
     text-align: center;
 }
 
-.darwin>.text>.translation {
+.species-paper>.front-cover>.translation {
     margin-top: 20px;
     font-size: 12px;
     font-style: italic;
