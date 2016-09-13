@@ -24,7 +24,7 @@ body {
     font-size: 20px;
 }
 
-.header-page >.one {
+.header-page >.pre-title {
     padding-top: 10px;
 }
 
@@ -49,6 +49,6 @@ body {
 }
 
 .header-page>.credentials>a:visited {
-    text-decoration: overline;
+    text-decoration: line-through;
 
 }
