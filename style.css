@@ -2,44 +2,53 @@ body {
     background-color: antiquewhite;
 }
 
-.species-paper>* {
+.header-page >* {
     display: flex;
     justify-content: center;
+    text-align: center;
     color: #1a1a1a;
     font-family: "Old Standard TT", serif;
     font-weight: lighter;
     text-transform: uppercase;
 }
 
-.species-paper>h1 {
+.header-page >h1 {
     font-size: 55px;
 }
 
-.species-paper>h3 {
+.header-page >h3 {
     font-size: 30px;
 }
 
-.species-paper>h5 {
+.header-page >h5 {
     font-size: 20px;
 }
 
-.species-paper>.on {
+.header-page >.one {
     padding-top: 10px;
 }
 
-.species-paper>.by-means-of {
+.header-page >.subtitle {
     padding-bottom: 110px;
 }
 
-.species-paper>.credentials {
+.header-page >.credentials {
     font-size: 15px;
     text-align: center;
 }
 
-.species-paper>.translation {
+.header-page >.translation {
     margin-top: 20px;
     font-size: 12px;
     font-style: italic;
     text-transform: none;
 }
 
+.header-page>.credentials>a {
+    color: #1a1a1a;
+}
+
+.header-page>.credentials>a:visited {
+    text-decoration: overline;
+
+}
