@@ -1,5 +1,5 @@
 body {
-    background-color: antiquewhite;
+    background-color: #efe0cc;
 }
 
 .header-page >* {
@@ -46,9 +46,4 @@ body {
 
 .header-page>.credentials>a {
     color: #1a1a1a;
-}
-
-.header-page>.credentials>a:visited {
-    text-decoration: line-through;
-
 }
